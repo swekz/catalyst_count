@@ -1,0 +1,20 @@
+#------------------create database in MYSQL-----
+create database catalyst;
+
+#---------------import packages------
+pip install -r requirements.txt
+
+#----------------import api endpoints from-------
+catalyst.postman_collection.json file has all api endpoints and data how to be given
+
+
+#----------------run python application-------
+python login.py
+
+#------------access token---------
+copy access token and paste in authorization in authorization select bearer,
+ token paste the generated token there
+
+
+
+
